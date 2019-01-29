@@ -46,7 +46,7 @@ describe App do
 
     it "displays the point guard's name in the browser" do
       visit '/newteam'
-
+    #
       fill_in(:pg, :with => "Jeff")
       click_button "Submit"
 
